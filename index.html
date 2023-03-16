@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaq.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="contenedor_menu ancho">
+    <figure class="logo_menu">
+      <img src="img/logo.png" alt="">
+      <div id="menu_san">
+        <a href="#" id="icono">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+    </div>
+    </figure>
+    <nav class="menu" id="contenedor_menu">
+      <ul>
+             <il><a href="#navegadpres" class="btn_ancla">Navegadores Firefox</a></il>
+             <il><a href="#productos" class="btn_ancla">Productos</a></il>
+             <il><a href="#quienes" class="btn_ancla">Quienes Somos</a></il>
+             <il><a href="#inovacion" class="btn_ancla">Innovacion</a></il>
+            </ul>
+    </nav>
+    <a href="#descargas" id="descargas">Descarga Firefox</a>
+  </div>
+  </header>
+  <article class="contenedor_dos ancho">
+    <div class="ideas">
+    <h1>Vuelve a las <br> buenas ideas-<br>
+      mas rapido</h1><br>
+      <a href="#descargas" id="obten">Obten el Nuevo Firefox</a>
+    </div>
+      <figure class="celular">
+        <img src="img/img1.png" class="celular_div" alt="">
+      </figure>
+  </article>
+<br>
+<br>
+
+  <article class="contenedor_dinosaurio ancho">
+    <figure class="celular">
+      <img src="img/dinosaurio.png" class="celular_div" alt="">
+    </figure>
+    <div class="internet">
+    <h1>Hacemos internet más seguro, sano y rápido para siempre.</h1>
+    <br>
+     <p>Mozilla es la organización sin fines de lucro detrás de Firefox, el navegador alternativo original. Creamos productos y políticas para que el Internet se mantenga al servicio de la gente, no de las ganancias.</p>
+    </div>
+  </article>
+      <br>
+      <br>
+      <br>
+  <article class="contenedor_texto ancho">
+    <div class="influencia">
+      <h1>Nuestra influencia</h1>
+      <br>
+      <br>
+       <p>Cuando usas Firefox ayudas a Mozilla a luchar contra la desinformación en Internet, enseñar habilidades digitales y hacerlo más humano en áreas de comentarios. Echa un vistazo para ayudar a crear un internet más saludable.</p>
+       <br>
+        <li> <a href="#"> Mozilla Infromation Trust Native</a></li>
+        <li><a href="#">Empoderando a las mujeres en linea</a></li>
+        <li><a href="#">El proyecto coral</a></li>
+        <li><a href="#">Lee nuestro proyecto de salud de internet</a></li>
+       </ul>
+      <ul>
+      </div>
+    <div class="innovaciones">
+    <h1>Nuestras innovaciones</h1>
+    <br>
+    <br>
+     <p>Con la web como nuestra plataforma, creamos tecnologías abiertas e innovadoras que permiten a los desarrolladores trabajar sin ecosistemas corporativos cerrados y crear experiencias de web más rápidas y seguras para todos.</p>
+     <li><a href="#">El proyecto coral</a></li>
+     <li><a href="#">Lee nuestro proyecto de salud de internet</a></li>
+    </div>
+  </article>
+  <br>
+  <br>
+  <br>
+      <article class="extensiones_3 ancho">
+          <figure>
+            <img src="/img/extensions.62adb1d0c427.png" alt="" class="img_links">
+            <br>
+            <br>
+            <a href="#" class="links">Extensiones</a>
+            <br>
+            <br>
+            <p>Personaliza Firefox con tus extras favoritos como administradores de contraseñas, bloqueadores de anuncios y mucho más.</p>
+          </figure>
+          <figure>
+            <img src="/img/careers.6a62e49c184c.png" alt="" class="img_links">
+            <br>
+            <br>
+            <a href="#" class="links">Empleos</a>
+            <br>
+            <br>
+            <p>Conoce cuáles son los beneficios de trabajar para Mozilla, y mira que vacantes hay disponibles alrededor del mundo.</p>
+          </figure>
+          <figure>
+            <img src="/img/help.4f6ef4787df1.png" alt="" class="img_links">
+            <br>
+            <br>
+            <a href="#" class="links">¿Necesitas ayuda?</a>
+            <br>
+            <br>
+            <p>Nuestro equipo de soporte contestará tus preguntas sobre Firefox y todos los productos de Mozilla.</p>
+          </figure>
+      </article>
+      <br>
+      <br>
+      <br>
+
+      <article class="formulario ancho"> 
+            <figure>
+              <img src="/img/newsletter-graphic.3debb24fbacc.png" alt="">
+            </figure>
+            <div class="amor">
+              <h1>Amor por la web</h1>
+              <br>
+              <br>
+              <p>Recibe los boletines de Mozilla y ayúdanos a mantener la web abierta y gratuita.</p>
+              <br>
+              <br>
+            <p class="negritas">Tu direccion de correo electronico</p>
+       <form action="">
+         <label for="">
+           <input type="text">tunombre@ejemplo.com</label></form>
+            </div>
+      </article>
+</body>
+<footer>
+</footer>
+<script>
+  $('#icono').click(function(){
+    $('nav').slideToggle();
+    $('#descargas').slideToggle();
+});
+  // Funcion para el boton subir
+  $(document).ready(function () {
+    $("#subir").click(function () {
+      $("html,body").animate(
+        {
+          scrollTop: "0px",
+        },
+        1000
+      );
+    });
+  });
+  $(".btn_ancla").click(function () {
+    var ancla = $(this).attr("href");
+    $("html,body").animate(
+      {
+        scrollTop: $(ancla).offset().top,
+      },
+      1000
+    );
+    $("#contenedormenu").toggleClass("abrirmenu");
+  });
+  </script>
+</html>

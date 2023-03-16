@@ -1,0 +1,242 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(96, 99, 101);
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav{
+  text-align: left;
+  display: block;
+  text-align: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: left;
+  gap: 20px;
+  margin-top: 10px;
+}
+nav a{
+  text-align: left;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 30px;
+}
+header{
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-bottom: 50px;
+  box-shadow: 0px 3px 10px #cccc;
+}
+header nav{
+  margin-left: 0;
+  text-align: left;
+}
+.contenedor_menu{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 10px 10px 20px 10px;
+}
+.contenedor_menu figure{
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+
+#menu_san{
+  text-align: right;
+  width: 20px;
+  background-color: rgb(0, 0, 0);
+  display: none;
+}
+#descargas{
+  border: 3px #0E69E1 solid;
+  color: #0E69E1;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 100px;
+  height: 30px;
+  width: 200px;
+  display: block;
+}
+#descargas:hover{
+background-color: #0E69E1;
+color: white;
+transition: 0.5s;
+}
+.contenedor_dos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ideas{
+color: #0E69E1;
+font-size: 25px;
+line-height: 40px;
+}
+.celular{
+  display: flex;
+}
+#obten{
+  background-color: #0E69E1;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  display: block;
+}
+.contenedor_dinosaurio{
+  background-color: #EDEDF0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 20px 20px 20px;
+}
+.contenedor_texto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.internet{
+  text-align: center;
+  max-width: 400px;
+}
+.internet h1{
+  font-size: 50px;
+  line-height: 40px;
+}
+.influencia {
+  text-decoration: none;
+  width: 600px;
+ border-right: 3px #EDEDF0 solid;
+}
+.influencia h1 {
+  font-size: 50px;
+}
+.influencia ul{
+  text-decoration: none;
+  color: #0E69E1;
+  font-size: 20px;
+}
+.influencia a{
+  line-height: 30px;
+  color: #0E69E1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.innovaciones {
+ margin-top: 0px;
+  margin-left: 40px;
+  text-decoration: none;
+  width: 600px;
+}
+.innovaciones h1 {
+  font-size: 50px;
+}
+.innovaciones ul{
+  text-decoration: none;
+  color: #0E69E1;
+  font-size: 20px;
+}
+.innovaciones a{
+  line-height: 30px;
+  color: #0E69E1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.innovaciones{
+  width: 600px;
+}
+.extensiones_3{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: left;
+  color: black;
+}
+.extensiones_3 figure{
+margin-right: 60x;
+width: 400px;
+}
+.img_links{
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+.empleos img{
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+.necesitas_ayuda img{
+  margin-left: 10px;
+  width: 150px;
+  height: 150px;
+}
+.extensiones{
+  flex-wrap: wrap;
+}
+.links{
+  font-weight: bold;
+  color: black;
+  text-decoration: underline #0E69E1;
+  font-size: 35px;
+  text-align: left;
+}
+.formulario{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: left;
+  color: black;
+}
+.amor{
+  margin-top: 80px;
+  max-width: 400px;
+  text-align: left;
+}
+.amor h1{
+  font-size: 50px;
+}
